@@ -14,9 +14,6 @@ class TestController
         dd('ça marche');
     }
 
-    /**
-     * @Route("/test/{age<\d+>?0}" , name="test" , methode={"GET", "POST"}, host="localhost", schemes={"https" , "http"}) 
-     */
     public function test(Request $request, $age)
     {
         // $age = $request->attributes->get('age');
