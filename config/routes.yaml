@@ -1,0 +1,8 @@
+# controllers:
+#   resource: ../src/Controller/
+#   type: attribute
+#config/routes.yaml
+
+index:
+  path: /
+  defaults: { _controller: 'App\Controller\TestController::index' }
